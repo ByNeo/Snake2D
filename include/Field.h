@@ -3,9 +3,9 @@
 
 #include "Shape.h"
 
+
 const int HEIGHT = 600;
 const int WIDTH  = 800;
-
 
 class Field : public Shape {
 private:
