@@ -19,7 +19,7 @@ Snake::Snake()
 
 Snake::~Snake()
 {
-	for(int i=0; i<MAX_NUMBEROFPIXEL; i++)
+	for(int i=0; i<numberOfPixel; i++)
 		delete Pixels[i];
 }
 
